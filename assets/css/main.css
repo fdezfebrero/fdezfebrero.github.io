@@ -15,7 +15,7 @@
 	font-size: 100px;
 	line-height: 100px;
 	overflow: hidden;
-	padding-left: 0;	
+	padding-left: 50px;	
 	margin-bottom: 50px;
 	font-family: 'Roboto Condensed', sans-serif;
 
@@ -63,7 +63,7 @@ ul, p {
 	font-size: 50px;
 	line-height: 50px;
 	overflow: hidden;
-	padding-left: 0;	
+	padding-left: 10px;	
 	margin-bottom: 50px;
 	font-family: 'Roboto Condensed', sans-serif;
 
