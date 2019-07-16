@@ -5,7 +5,47 @@
 }
 
 
-.fotofondo{
 
-width: 100%;
+/* animacion portada*/
+
+.animacion_uno{
+	display: flex;
+	width: 800px;
+	height: 130px;
+	font-size: 130px;
+	line-height: 130px;
+	overflow: hidden;
+	padding-left: 10px;	
+	margin-bottom: 50px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ul_anima {
+	list-style: none;
+	padding-left: 10px;
+	animation: cambiar 7s infinite;
+	padding-right: 10px;
+}
+
+ul, p {
+	margin: 0;
+}
+
+.p_anima{
+	font-size: 130px;
+	line-height: 130px;
+}
+
+@keyframes cambiar {
+
+	0%{margin-top: 0;}
+	35%{margin-top: 0;}
+
+	40%{margin-top: -130px;}
+	75%{margin-top: -130px;}
+
+	80%{margin-top: -130px;}
+	90%{margin-top: -130px;}
+
+	100%{margin-top: 0; }
 }
