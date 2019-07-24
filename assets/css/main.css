@@ -1,101 +1,115 @@
 /* estilos css propios*/
 
-.colorfondo{
-	Color: black;
+.colorfondo {
+    Color: black;
 }
 
-.margen_inferior{
-	padding-bottom: 10px;
+.margen_inferior {
+    padding-bottom: 10px;
 }
+
 
 /* animacion portada:  titulo vertical*/
 
-.animacion_uno{
-	display: flex;
-	width: 100%;
-	height: 100px;
-	font-size: 100px;
-	line-height: 100px;
-	overflow: hidden;
-	padding-left: 50px;	
-	margin-bottom: 50px;
-	font-family: 'Roboto Condensed', sans-serif;
-
+.animacion_uno {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    font-size: 100px;
+    line-height: 100px;
+    overflow: hidden;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .ul_anima {
-	list-style: none;
-	padding-left: 10px;
-	animation: cambiar 7s infinite;
-	padding-right: 10px;
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 7s infinite;
+    padding-right: 10px;
 }
 
-ul, p {
-	margin: 0;
+ul,
+p {
+    margin: 0;
 }
 
-.p_anima{
-	font-size: 100px;
-	line-height: 100px;
+.p_anima {
+    font-size: 100px;
+    line-height: 100px;
 }
 
 @keyframes cambiar {
-
-	0%{margin-top: 0;}
-	35%{margin-top: 0;}
-
-	40%{margin-top: -100px;}
-	75%{margin-top: -100px;}
-
-	80%{margin-top: -100px;}
-	90%{margin-top: -100px;}
-
-	100%{margin-top: 0; }
+    0% {
+        margin-top: 0;
+    }
+    35% {
+        margin-top: 0;
+    }
+    40% {
+        margin-top: -100px;
+    }
+    75% {
+        margin-top: -100px;
+    }
+    80% {
+        margin-top: -100px;
+    }
+    90% {
+        margin-top: -100px;
+    }
+    100% {
+        margin-top: 0;
+    }
 }
-
 
 
 /* facemos responsive animacion portada para os dispositivos de 450px xa que se veia mal*/
 
 @media (max-width: 450px) {
-   .animacion_uno{
-	display: flex;
-	width: 100%;
-	height: 50px;
-	font-size: 50px;
-	line-height: 50px;
-	overflow: hidden;
-	padding-left: 20px;	
-	margin-bottom: 50px;
-	font-family: 'Roboto Condensed', sans-serif;
-
+    .animacion_uno {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        font-size: 50px;
+        line-height: 50px;
+        overflow: hidden;
+        padding-left: 20px;
+        margin-bottom: 50px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .p_anima {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .ul_anima {
+        list-style: none;
+        padding-left: 10px;
+        animation: cambiar 7s infinite;
+        padding-right: 10px;
+    }
+    @keyframes cambiar {
+        0% {
+            margin-top: 0;
+        }
+        35% {
+            margin-top: 0;
+        }
+        40% {
+            margin-top: -50px;
+        }
+        75% {
+            margin-top: -50px;
+        }
+        80% {
+            margin-top: -50px;
+        }
+        90% {
+            margin-top: -50px;
+        }
+        100% {
+            margin-top: 0;
+        }
+    }
 }
-
-.p_anima{
-	font-size: 50px;
-	line-height: 50px;
-}
-
-.ul_anima {
-	list-style: none;
-	padding-left: 10px;
-	animation: cambiar 7s infinite;
-	padding-right: 10px;
-}
-@keyframes cambiar {
-
-	0%{margin-top: 0;}
-	35%{margin-top: 0;}
-
-	40%{margin-top: -50px;}
-	75%{margin-top: -50px;}
-
-	80%{margin-top: -50px;}
-	90%{margin-top: -50px;}
-
-	100%{margin-top: 0; }
-}
-
-}
-
-
