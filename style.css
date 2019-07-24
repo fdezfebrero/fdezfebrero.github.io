@@ -11,10 +11,6 @@
     padding-left: 30px;
 }
 
-.posicion {
-    padding-top: ;
-}
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -100,6 +96,7 @@
 
 a:hover {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 a {
